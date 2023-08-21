@@ -104,8 +104,8 @@
             
             if(prevTouchPos != [0, 0])
             {
-                tiltAngY += (event.pageY-prevTouchPos[1])/10
-                tiltAngX -= (event.pageX-prevTouchPos[0])/10
+                tiltAngY += (event.pageY-prevTouchPos[1])
+                tiltAngX -= (event.pageX-prevTouchPos[0])
             }
             prevTouchPos[0] = event.pageX
             prevTouchPos[1] = event.pageY
