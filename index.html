@@ -109,8 +109,8 @@
             }
             prevTouchPos[0] = event.pageX
             prevTouchPos[1] = event.pageY
-            document.documentElement.style.setProperty("--tiltX", `${tiltAngY}deg`)
-            document.documentElement.style.setProperty("--tiltY", `${tiltAngX}deg`)
+            document.documentElement.style.setProperty("--tiltY", `${tiltAngY}deg`)
+            document.documentElement.style.setProperty("--tiltX", `${tiltAngX}deg`)
             tiltAngX %= 360
             tiltAngY %= 360
         })
